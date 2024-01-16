@@ -1,0 +1,125 @@
+:root {
+  --bone-white: #EDDBC0;
+  --soldier-green: #B73E3E;
+  --grayish-black: #303030;
+  --dark-brown: #423525;
+  --bronze-gold: #DBC8AC;
+  --bright-sand: #DD5353;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.active {
+  border: 1px solid rgb(78, 74, 74);
+  border-radius: 5px;
+  padding: 3px 7px;
+}
+
+body {
+  background-color: var(--bone-white);
+  font-family: 'Arsenal', sans-serif;
+  color: var(--dark-brown);
+  margin: 0;
+  line-height: 1.4;
+}
+
+main,
+footer {
+  padding: 0.5em;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Arsenal', sans-serif;
+}
+
+nav li a {
+  text-decoration: none;
+  color: var(--grayish-black);
+}
+
+nav li {
+  color: var(--soldier-green);
+  text-align: center;
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+}
+nav ul {
+  width: fit-content;
+  display: block;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-top: 3em;
+}
+
+.button {
+  display: block;
+  width: fit-content;
+  border-radius: 5px;
+  text-align: center;
+  background-color: var(--soldier-green);
+  color: var(--bone-white);
+  text-decoration: none;
+  padding: 10px 15px;
+  font-family: 'Arsenal', sans-serif;
+  transform: all 200ms ease-in-out;
+}
+.button:hover {
+  cursor: pointer;
+  box-shadow: 10px 10px 32px rgba(100, 79, 61, 0.2);
+  color: var(--bone-white);
+  background-color: var(--bright-sand);
+  border: var(--soldier-green);
+}
+
+footer {
+  width: 100%;
+  justify-content: space-around;
+  border-top: 1px solid var(--bright-sand);
+  margin-top: 2em;
+  color: var(--bright-sand);
+}
+
+footer > div {
+  margin: 0 auto;
+  display: flex;
+  max-width: 900px;
+  justify-content: space-between;
+}
+
+footer a {
+  color: var(--bright-sand);
+  text-decoration: none;
+}
+
+footer i {
+  color: var(--bronze-gold);
+}
+
+footer a:hover {
+  color: var(--soldier-green);
+  text-decoration: underline;
+  transition: all 200ms ease-in-out;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  margin-left: 10px;
+  list-style-type: none;
+}
