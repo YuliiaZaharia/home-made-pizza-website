@@ -93,7 +93,7 @@ h2 {
   }
   
   .contact input[type="submit"] {
-    background-color: var(--soldier-green);
+    background-color: var(--bronze-gold);
     color: var(--bone-white);
     margin-top: 5px;
     width: fit-content;
