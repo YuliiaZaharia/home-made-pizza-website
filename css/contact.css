@@ -1,0 +1,124 @@
+h2 {
+    color: var(--dark-brown);
+    font-size: 40px;
+    display: block;
+    max-width: 900px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  label {
+    color: var(--soldier-green);
+  }
+  
+  .submit {
+    font-family: 'Arsenal', sans-serif;
+  }
+  
+  #send-button:hover {
+    background-color: var(--bright-sand);
+    color: var(--soldier-green);
+    border: 0px;
+    transform: all 200ms ease-in-out;
+    cursor: pointer;
+    box-shadow: 10px 10px 32px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact {
+    margin: auto;
+    margin-top: 50px;
+    max-width: 800px;
+    min-height: 75vh;
+  
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 40px;
+    margin: 0 auto;
+  }
+  
+  .contact > div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 40px;
+    margin: 0 auto;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .contact {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .form-img > img {
+      width: 60vw;
+    }
+  }
+  
+  .contact-form-img {
+    width: 250px;
+    height: 500px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 32px rgba(100, 79, 61, 0.2);
+  }
+  
+  .contact label {
+    margin-top: 5px;
+  }
+  
+  .contact input {
+    margin-bottom: 2px;
+    background-color: transparent;
+    border: solid 0px;
+    border-bottom: 1px solid var(--bronze-gold);
+    padding: 5px;
+  }
+  .contact textarea {
+    margin-bottom: 2px;
+    background-color: transparent;
+    border: 1px solid var(--bronze-gold);
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .contact input[type="submit"] {
+    background-color: var(--soldier-green);
+    color: var(--bone-white);
+    margin-top: 5px;
+    width: fit-content;
+    padding: 5px 20px;
+  }
+  
+  .contact input:focus,
+  .contact textarea:focus {
+    outline: none;
+    background-color: #ddc8a098;
+    border-radius: 5px;
+  }
+  
+  .contact input:focus::placeholder {
+    color: var(--bone-white);
+  }
+  
+  .contact textarea:focus::placeholder {
+    color: var(--bone-white);
+  }
+  
+  ::placeholder {
+    color: rgba(48, 48, 48, 0.2);
+  }
+  
+  #send-button {
+    border-radius: 5px;
+  }
