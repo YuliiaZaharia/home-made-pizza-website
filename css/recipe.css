@@ -17,6 +17,10 @@ h2 {
   a {
     color: var(--soldier-green);
   }
+
+  .top {
+    text-align: center;
+  }
   
   .container {
     display: flex;

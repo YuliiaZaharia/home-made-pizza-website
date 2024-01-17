@@ -20,6 +20,8 @@ img {
     font-size: 50px;
     margin-top: 1.5em;
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(48, 48, 48, 0.6);
+
   }
   
   h2 {
@@ -225,7 +227,7 @@ img {
     color: var(--bone-white);
     text-decoration: none;
     padding: 10px;
-    font-family: "Catchy Mager";
+    font-family: 'EB Garamond', serif;
     transform: all 200ms ease-in-out;
   }
   

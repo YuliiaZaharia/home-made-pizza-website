@@ -21,7 +21,7 @@
 
 body {
   background-color: var(--bone-white);
-  font-family: 'Arsenal', sans-serif;
+  font-family: 'EB Garamond', serif;
   color: var(--dark-brown);
   margin: 0;
   line-height: 1.4;
@@ -42,7 +42,7 @@ footer {
 h1,
 h2,
 h3 {
-    font-family: 'Arsenal', sans-serif;
+  font-family: 'EB Garamond', serif;
 }
 
 nav li a {
@@ -75,7 +75,7 @@ nav ul {
   color: var(--bone-white);
   text-decoration: none;
   padding: 10px 15px;
-  font-family: 'Arsenal', sans-serif;
+  font-family: 'EB Garamond', serif;
   transform: all 200ms ease-in-out;
 }
 .button:hover {
