@@ -1,7 +1,12 @@
 img {
     display: block;
     border-radius: 25px;
+    transition: 0.55s ease-in-out;
   }
+
+  img:hover {
+    transform: translateY(-20px);
+}
 
   #myVideo {
     width: 400px;
@@ -174,7 +179,7 @@ img {
   .cta {
     display: flex;
     flex-direction: row;
-    background-color: #ddc8a0;
+    background-color: #FA9884;
     margin: auto;
     padding: 1em;
     gap: 30px;

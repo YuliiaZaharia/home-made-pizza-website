@@ -8,6 +8,7 @@ h2 {
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
   label {
     color: var(--soldier-green);
   }
@@ -30,7 +31,6 @@ h2 {
     margin-top: 50px;
     max-width: 800px;
     min-height: 75vh;
-  
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -84,6 +84,7 @@ h2 {
     border-bottom: 1px solid var(--bronze-gold);
     padding: 5px;
   }
+  
   .contact textarea {
     margin-bottom: 2px;
     background-color: transparent;
